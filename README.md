@@ -25,7 +25,7 @@ In the command line of your terminal to run the tool.
 
 `-url`: Here you will pass the domain URL (required)
 ```
-python3 enumerate.py -url 'https://exemplo.com/' 
+python3 enumerate.py -url 'https://test.com/' 
 ```
 
 `-file`: Here you will pass the Wordlist directory (required)
