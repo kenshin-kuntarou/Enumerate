@@ -11,8 +11,7 @@ Tool, you can do by typing "`wordlists`" on your Kali-Linux
 
 ### Install
 
-The command below can be used to easily install the tool.
-If you want you can change the path of installation as you wish
+The command below can be used to easily install the tool. If you want you can change the path of installation as you wish
 
 ```
 git clone https://www.github.com/kenshin-kuntarou/Enumerate ~/Downloads/Enumerate
