@@ -41,9 +41,10 @@ class Enumeration:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('-url', type=str, required=True, help="A url que será enumerada")
-    parser.add_argument('-file', type=str, required=True, help="O arquivo de enumeração")
-    parser.add_argument('-threads', type=int, required=False, help="O número de threads usada (padrão = 5)")
+    parser.add_argument('-url', type=str, required=True, help="The domain that will be listed")
+    parser.add_argument('-file', type=str, required=True, help="The Wordlist that will be used")
+    parser.add_argument('-threads', type=int, required=False, help="The number of threads used (default = 5)")
+
     args = parser.parse_args()
     
     enumerator = Enumeration(args.url, args.file) 

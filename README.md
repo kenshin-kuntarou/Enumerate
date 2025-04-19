@@ -1,42 +1,41 @@
 ## Enumerate Tool
 
-Essa foi uma ferramenta simples que eu desenvolvi em Python para 
-que se possa fazer uma enumeração de sub diretórios rapidamente.
+This was a simple tool that I developed in Python for 
+that a submaster enumeration can be made quickly.
 
-Ele vem com algumas wordlists que você pode usar para fazer as suas
-enumerações. Entretanto, se você desejar usar outras wordlists com a 
-ferramenta, você pode fazer digitando "`wordlists`"  no seu kali-linux
+It comes with some Wordlists you can use to make your
+enumerations. However, if you want to use other Wordlists with the 
+Tool, you can do by typing "`wordlists`" on your Kali-Linux
 
 --- 
 
-### Instalação
+### Install
 
-O comando abaixo poderá ser usado para instalar facilmente a ferramenta.
-Se deseja você pode alterar o caminho da instalação como desejar
+The command below can be used to easily install the tool.
+If you want you can change the path of installation as you wish
 
 ```
-git clone https://www.github.com/kenshin-kuntarou/Enumerate ~/Downloads/
+git clone https://www.github.com/kenshin-kuntarou/Enumerate ~/Downloads/Enumerate
 ```
 ---
 
-### Argumentos
+### Arguments
 
-Aqui eu estarei listando todos os argumentos que você poderá usar
-na linha de comando do seu terminal para executar a ferramenta.
+Here I will be listing all the arguments you can use
+In the command line of your terminal to run the tool.
 
-`-url`: Aqui você irá passar a url do domínio (obrigatório)
-
+`-url`: Here you will pass the domain URL (required)
 ```
 python3 enumerate.py -url 'https://exemplo.com/' 
 ```
 
-`-file`: Aqui vpcê irá passar o diretório da wordlist (obrigatório)
+`-file`: Here you will pass the Wordlist directory (required)
 
 ```
 python3 enumerate.py -file 'wordlists/test.txt'
 ```
 
-`-threads`: Aqui você irá passar o número de threads que deseja usar
+`-threads`: Here you will pass the number of threads you want to use
 
 ```
 python3 enumerate.py -threads 20
