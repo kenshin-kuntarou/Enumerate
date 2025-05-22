@@ -14,7 +14,7 @@ Tool, you can do by typing "`wordlists`" on your Kali-Linux
 The command below can be used to easily install the tool.
 
 ```
-git clone https://www.github.com/kenshin-kuntarou/Enumerate ~/Downloads/Enumerate
+git clone https://www.github.com/tenshin-tenko/Enumerate ~/Downloads/Enumerate
 ```
 ---
 
